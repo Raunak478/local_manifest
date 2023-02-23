@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="Raunak478" fetch="https://github.com"/>
+
+  <project name="Raunak478/android_device_xiaomi_rova" path="device/xiaomi/rova" remote="Raunak478" revision="13" />
+  <project name="Raunak478/android_vendor_xiaomi_rova" path="vendor/xiaomi/rova" remote="Raunak478" revision="13.0" />
+  <project name="Raunak478/android_kernel_xiaomi_rova" path="kernel/xiaomi/rova" remote="Raunak478" revision="13.0" />
+</manifest>
