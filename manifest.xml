@@ -3,14 +3,14 @@
           
      <remote name="raunak"
             fetch="https://github.com/Raunak478"/>
-     <remote name="VoltageOS"
-            fetch="https://github.com/VoltageOS"/>
+     <remote name="StagOS"
+            fetch="https://github.com/StagOS"/>
        <remote name="ImSurajxD"
                 fetch="https://gitlab.com/ImSurajxD" />
 
   
   <!-- Device Trees -->
-        <project name="device_xiaomi_rova" path="device/xiaomi/rova" remote="raunak" revision="13" /> 
+        <project name="device_xiaomi_rova" path="device/xiaomi/rova" remote="raunak" revision="13-stag" /> 
          
   <!-- Vendor Trees -->
         <project name="vendor_xiaomi_rova" path="vendor/xiaomi/rova" remote="raunak" revision="13.0" />  
