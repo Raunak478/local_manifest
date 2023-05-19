@@ -10,7 +10,7 @@
 
   
   <!-- Device Trees -->
-        <project name="device_xiaomi_rova" path="device/xiaomi/rova" remote="raunak" revision="arrow-13" /> 
+        <project name="device_xiaomi_rova" path="device/xiaomi/rova" remote="raunak" revision="13-arrow" /> 
          
   <!-- Vendor Trees -->
         <project name="vendor_xiaomi_rova" path="vendor/xiaomi/rova" remote="raunak" revision="13.0" />  
