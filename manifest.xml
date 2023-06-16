@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-          
-     <remote name="raunak"
-            fetch="https://github.com/Raunak478"/>
-     <remote name="BootleggersROM"
-            fetch="https://github.com/BootleggersROM"/>
-       <remote name="ImSurajxD"
-                fetch="https://gitlab.com/ImSurajxD" />
+   
+        <remote  name="raunak" fetch="https://github.com/Raunak478" />
+        <remote  name="r450784d" fetch="https://gitlab.com/SwapnilVicky" />
+        <remote  name="clang"    fetch="https://github.com/kdrag0n" />
+        <remote  name="BootleggersROM" fetch=https://github.com/BootleggersROM" />
+  <!-- Trees --> 
+                <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" remote="raunak" revision="tirimbino" />
+                <project path="device/xiaomi/sm6250-common" name="device_xiaomi_sm6250-common" remote="raunak" revision="lineage-20.0" />
+                <!-- project path="vendor/xiaomi/miuicamera" name="vendor_xiaomi_miuicamera" remote="r450784d" revision="thirteen" / -->
+                <project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_miatoll" remote="s" revision="typhoon" />
+                <project path="kernel/xiaomi/sm6250" name="namaste_xiaomi_miatoll" remote="raunak" revision="main-190" />
+                <!-- project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="raunak" revision="lineage-20.0" / -->
 
-  
-  <!-- Device Trees -->
-        <project name="device_xiaomi_rova" path="device/xiaomi/rova" remote="raunak" revision="btlg-2" /> 
-         
-  <!-- Vendor Trees -->
-        <project name="vendor_xiaomi_rova" path="vendor/xiaomi/rova" remote="raunak" revision="13.0" />  
-          
-  <!-- Kernel Trees -->
-        <project name="kernel_xiaomi_rova" path="kernel/xiaomi/rova" remote="raunak" revision="13.0" />
+                <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="r450784d" revision="master" clone-depth="1" />
+                <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
 
-  <!-- Clang -->
-           <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" /> 
-          
 </manifest>
