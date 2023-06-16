@@ -4,7 +4,7 @@
         <remote  name="raunak" fetch="https://github.com/Raunak478" />
         <remote  name="r450784d" fetch="https://gitlab.com/SwapnilVicky" />
         <remote  name="clang"    fetch="https://github.com/kdrag0n" />
-        <remote  name="BootleggersROM" fetch=https://github.com/BootleggersROM" />
+        <remote  name="BootleggersROM" fetch="https://github.com/BootleggersROM" />
   <!-- Trees --> 
                 <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" remote="raunak" revision="tirimbino" />
                 <project path="device/xiaomi/sm6250-common" name="device_xiaomi_sm6250-common" remote="raunak" revision="lineage-20.0" />
