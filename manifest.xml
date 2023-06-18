@@ -9,7 +9,7 @@
                 <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" remote="raunak" revision="tirimbino" />
                 <project path="device/xiaomi/sm6250-common" name="device_xiaomi_sm6250-common" remote="raunak" revision="lineage-20.0" />
                 <!-- project path="vendor/xiaomi/miuicamera" name="vendor_xiaomi_miuicamera" remote="r450784d" revision="thirteen" / -->
-                <project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_miatoll" remote="s" revision="typhoon" />
+                <project path="vendor/xiaomi/miatoll" name="vendor_xiaomi_miatoll" remote="raunak" revision="typhoon" />
                 <project path="kernel/xiaomi/sm6250" name="namaste_xiaomi_miatoll" remote="raunak" revision="main-190" />
                 <!-- project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="raunak" revision="lineage-20.0" / -->
 
