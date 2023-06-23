@@ -16,7 +16,7 @@
         <project name="vendor_xiaomi_rova" path="vendor/xiaomi/rova" remote="raunak" revision="13.0" />  
           
   <!-- Kernel Trees -->
-        <project name="kernel_xiaomi_rova" path="kernel/xiaomi/rova" remote="raunak" revision="13.0" />
+        <project name="kernel_xiaomi_rova" path="kernel/xiaomi/rova" remote="raunak" revision="13.1" />
 
   <!-- Clang -->
            <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" /> 
