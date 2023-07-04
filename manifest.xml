@@ -3,20 +3,20 @@
           
      <remote name="raunak"
             fetch="https://github.com/Raunak478"/>
-     <remote name="VoltageOS"
-            fetch="https://github.com/VoltageOS"/>
+     <remote name="Project-Awaken"
+            fetch="https://github.com/Project-Awaken"/>
        <remote name="ImSurajxD"
                 fetch="https://gitlab.com/ImSurajxD" />
 
   
   <!-- Device Trees -->
-        <project name="device_xiaomi_rova" path="device/xiaomi/rova" remote="raunak" revision="13" /> 
+        <project name="android_device_realme_RMX1801" path="device/realme/RMX1801" remote="raunak" revision="awaken" /> 
          
   <!-- Vendor Trees -->
-        <project name="vendor_xiaomi_rova" path="vendor/xiaomi/rova" remote="raunak" revision="13.0" />  
+        <project name="android_vendor_realme_RMX1801" path="vendor/realme/RMX1801/RMX1801" remote="raunak" revision="arrow-13.0" />  
           
   <!-- Kernel Trees -->
-        <project name="kernel_xiaomi_rova" path="kernel/xiaomi/rova" remote="raunak" revision="13.0" />
+        <project name="android_kernel_realme_sdm660" path="kernel/realme/sdm660" remote="raunak" revision="arrow-13.0" />
 
   <!-- Clang -->
            <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" /> 
