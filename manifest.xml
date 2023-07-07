@@ -19,6 +19,9 @@
         <project name="android_kernel_realme_sdm660" path="kernel/realme/sdm660" remote="raunak" revision="arrow-13.0" />
 
   <!-- Clang -->
-           <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" /> 
+           <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
+
+          <!-- Camera -->
+        <project name="packages_apps_Gcam" path="packages/apps/Gcam" remote="raunak" revision="go" />
           
 </manifest>
